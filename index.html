@@ -1,1 +1,46 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <h1 class="fade-in">Ivana Mensah</h1>
+
+    <h2 class="fade-in">Welcome to my website...</h2> 
+
+    <div class="links fade-in">
+        <a href="https://docs.google.com/document/d/1w9qjGEjvG5T98EQLqFm8SEidVpnTp66b/edit?usp=sharing&ouid=108835192853176738197&rtpof=true&sd=true" target="_blank">
+            <i class="fas fa-file-alt fa-2x"></i>
+        </a>
+        
+        <a href="https://www.linkedin.com/in/ivana-mensah-689029318/" target="_blank">
+            <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        
+        <a href="https://github.com/iv4m3ns/iv4m3ns.github.io.git" target="_blank">
+            <i class="fab fa-github fa-2x"></i>
+        </a>
+    </div>
+
+    <p class="fade-in">
+        <strong>About me..</strong><br>
+        My name is Ivana Mensah, I am an 18-year-old with a passion for all things computers. 
+        My long-term goal is to be in the DevOps engineering field, and I am currently working towards that.
+    </p>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let elements = document.querySelectorAll(".fade-in");
+            elements.forEach((el, index) => {
+                setTimeout(() => {
+                    el.classList.add("visible");
+                }, index * 500); // Staggered delay (0.5s per element)
+            });
+        });
+    </script>
+    
+</body>
+</html>
