@@ -82,7 +82,7 @@ body {
 /* Multi-colored text */
 h1 {
     font-size: 2.5rem;
-    background: linear-gradient(90deg, #ff0000, #ff7300, #ffeb00, #00ff00, #007bff, #8a2be2);
+    background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -96,7 +96,7 @@ h2 {
 p {
     font-size: 1.5rem;
     line-height: 1.8;
-    background: linear-gradient(90deg, #ff0000, #ff7300, #ffeb00, #00ff00, #007bff, #8a2be2);
+    background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: rainbow 4s linear infinite;
